@@ -67,8 +67,8 @@ catalogs:
       specifier: 3.2.7
       version: 3.2.7
     form-data:
-      specifier: 4.0.0
-      version: 4.0.0
+      specifier: 4.0.4
+      version: 4.0.4
     http-proxy-agent:
       specifier: 7.0.2
       version: 7.0.2
@@ -173,8 +173,8 @@ catalogs:
       specifier: ^3.5.13
       version: 3.5.13
     vue-i18n:
-      specifier: ^11.1.2
-      version: 11.1.2
+      specifier: ^11.1.10
+      version: 11.1.11
     vue-markdown-render:
       specifier: ^2.2.1
       version: 2.2.1
@@ -907,7 +907,7 @@ importers:
         version: 4.3.0
       '@getzep/zep-cloud':
         specifier: 1.0.12
-        version: 1.0.12(@langchain/core@0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67)))(encoding@0.1.13)(langchain@0.3.29(f70fa75ddbb47652add7d0f11a5bc120))
+        version: 1.0.12(@langchain/core@0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67)))(encoding@0.1.13)(langchain@0.3.29(5b3e41c44329ac59e290af21d4bd9a95))
       '@getzep/zep-js':
         specifier: 0.9.0
         version: 0.9.0
@@ -934,7 +934,7 @@ importers:
         version: 0.3.4(@langchain/core@0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67)))(encoding@0.1.13)
       '@langchain/community':
         specifier: 'catalog:'
-        version: 0.3.47(61ef7247b42783317a27f57d3dd83a45)
+        version: 0.3.47(eb7a671573a5d628fc741b1ab4759996)
       '@langchain/core':
         specifier: 'catalog:'
         version: 0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67))
@@ -1027,7 +1027,7 @@ importers:
         version: 3.0.2(ts-toolbelt@9.6.0)
       form-data:
         specifier: 'catalog:'
-        version: 4.0.0
+        version: 4.0.4
       generate-schema:
         specifier: 2.6.0
         version: 2.6.0
@@ -1048,7 +1048,7 @@ importers:
         version: 23.0.1
       langchain:
         specifier: 0.3.29
-        version: 0.3.29(f70fa75ddbb47652add7d0f11a5bc120)
+        version: 0.3.29(5b3e41c44329ac59e290af21d4bd9a95)
       lodash:
         specifier: 'catalog:'
         version: 4.17.21
@@ -1729,7 +1729,7 @@ importers:
         version: 16.5.4
       form-data:
         specifier: 'catalog:'
-        version: 4.0.0
+        version: 4.0.4
       http-proxy-agent:
         specifier: 'catalog:'
         version: 7.0.2
@@ -2105,7 +2105,7 @@ importers:
         version: link:../../../workflow
       vue-i18n:
         specifier: catalog:frontend
-        version: 11.1.2(vue@3.5.13(typescript@5.8.3))
+        version: 11.1.11(vue@3.5.13(typescript@5.8.3))
     devDependencies:
       '@n8n/eslint-config':
         specifier: workspace:*
@@ -2501,7 +2501,7 @@ importers:
         version: 3.1.3
       vue-i18n:
         specifier: catalog:frontend
-        version: 11.1.2(vue@3.5.13(typescript@5.8.3))
+        version: 11.1.11(vue@3.5.13(typescript@5.8.3))
       vue-json-pretty:
         specifier: 2.2.4
         version: 2.2.4(vue@3.5.13(typescript@5.8.3))
@@ -2999,7 +2999,7 @@ importers:
         version: 5.8.4
       form-data:
         specifier: 'catalog:'
-        version: 4.0.0
+        version: 4.0.4
       jmespath:
         specifier: 0.16.0
         version: 0.16.0
@@ -4721,16 +4721,16 @@ packages:
   '@internationalized/number@3.6.2':
     resolution: {integrity: sha512-E5QTOlMg9wo5OrKdHD6edo1JJlIoOsylh0+mbf0evi1tHJwMZfJSaBpGtnJV9N7w3jeiioox9EG/EWRWPh82vg==}
 
-  '@intlify/core-base@11.1.2':
-    resolution: {integrity: sha512-nmG512G8QOABsserleechwHGZxzKSAlggGf9hQX0nltvSwyKNVuB/4o6iFeG2OnjXK253r8p8eSDOZf8PgFdWw==}
+  '@intlify/core-base@11.1.11':
+    resolution: {integrity: sha512-1Z0N8jTfkcD2Luq9HNZt+GmjpFe4/4PpZF3AOzoO1u5PTtSuXZcfhwBatywbfE2ieB/B5QHIoOFmCXY2jqVKEQ==}
     engines: {node: '>= 16'}
 
-  '@intlify/message-compiler@11.1.2':
-    resolution: {integrity: sha512-T/xbNDzi+Yv0Qn2Dfz2CWCAJiwNgU5d95EhhAEf4YmOgjCKktpfpiUSmLcBvK1CtLpPQ85AMMQk/2NCcXnNj1g==}
+  '@intlify/message-compiler@11.1.11':
+    resolution: {integrity: sha512-7PC6neomoc/z7a8JRjPBbu0T2TzR2MQuY5kn2e049MP7+o32Ve7O8husylkA7K9fQRe4iNXZWTPnDJ6vZdtS1Q==}
     engines: {node: '>= 16'}
 
-  '@intlify/shared@11.1.2':
-    resolution: {integrity: sha512-dF2iMMy8P9uKVHV/20LA1ulFLL+MKSbfMiixSmn6fpwqzvix38OIc7ebgnFbBqElvghZCW9ACtzKTGKsTGTWGA==}
+  '@intlify/shared@11.1.11':
+    resolution: {integrity: sha512-RIBFTIqxZSsxUqlcyoR7iiC632bq7kkOwYvZlvcVObHfrF4NhuKc4FKvu8iPCrEO+e3XsY7/UVpfgzg+M7ETzA==}
     engines: {node: '>= 16'}
 
   '@ioredis/as-callback@3.0.0':
@@ -10389,6 +10389,10 @@ packages:
     resolution: {integrity: sha512-hGfm/slu0ZabnNt4oaRZ6uREyfCj6P4fT/n6A1rGV+Z0VdGXjfOhVUpkn6qVQONHGIFwmveGXyDs75+nr6FM8w==}
     engines: {node: '>= 6'}
 
+  form-data@4.0.4:
+    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
+    engines: {node: '>= 6'}
+
   formdata-node@4.4.1:
     resolution: {integrity: sha512-0iirZp3uVDjVGt9p49aTaqjk84TrglENEDuqfdlZQ1roC9CWlPk6Avf8EEnZNcAqPonwkG35x4n3ww/1THYAeQ==}
     engines: {node: '>= 12.20'}
@@ -14515,6 +14519,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   sparse-bitfield@3.0.3:
     resolution: {integrity: sha512-kvzhi7vqKTfkh0PZU+2D2PIllw2ymqJKujUcyPMd9Y75Nv4nPbGJZXNhxsgdQab2BmlDct1YnfQCguEvHr7VsQ==}
@@ -15783,8 +15788,8 @@ packages:
   vue-component-type-helpers@2.2.10:
     resolution: {integrity: sha512-iDUO7uQK+Sab2tYuiP9D1oLujCWlhHELHMgV/cB13cuGbG4qwkLHvtfWb6FzvxrIOPDnU0oHsz2MlQjhYDeaHA==}
 
-  vue-component-type-helpers@3.0.3:
-    resolution: {integrity: sha512-koiBu7lO8e6w/UlbZAAIW11qcFQocYIl7Nh/SVwGZ804ej5KrncU32bRxi2zfU2Kyf6HWuk1CeeVP2rhIL+vyQ==}
+  vue-component-type-helpers@3.0.5:
+    resolution: {integrity: sha512-uoNZaJ+a1/zppa/Vgmi8zIOP2PHXDN2rT8NyF+zQRK6ZG94lNB9prcV0GdLJbY9i9lrD47JOVIH92SaiA7oJ1A==}
 
   vue-demi@0.14.10:
     resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
@@ -15811,8 +15816,8 @@ packages:
   vue-github-button@3.1.3:
     resolution: {integrity: sha512-ZdOnUuYJL/wUsxISsC96TARzCdf1twaWooZoI14+g4RHsJltPY+Agw6Ox6pjuMqMX0uhSK1JOMFUFNCQGlcZGA==}
 
-  vue-i18n@11.1.2:
-    resolution: {integrity: sha512-MfdkdKGUHN+jkkaMT5Zbl4FpRmN7kfelJIwKoUpJ32ONIxdFhzxZiLTVaAXkAwvH3y9GmWpoiwjDqbPIkPIMFA==}
+  vue-i18n@11.1.11:
+    resolution: {integrity: sha512-LvyteQoXeQiuILbzqv13LbyBna/TEv2Ha+4ZWK2AwGHUzZ8+IBaZS0TJkCgn5izSPLcgZwXy9yyTrewCb2u/MA==}
     engines: {node: '>= 16'}
     peerDependencies:
       vue: ^3.0.0
@@ -18670,7 +18675,7 @@ snapshots:
   '@gar/promisify@1.1.3':
     optional: true
 
-  '@getzep/zep-cloud@1.0.12(@langchain/core@0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67)))(encoding@0.1.13)(langchain@0.3.29(f70fa75ddbb47652add7d0f11a5bc120))':
+  '@getzep/zep-cloud@1.0.12(@langchain/core@0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67)))(encoding@0.1.13)(langchain@0.3.29(5b3e41c44329ac59e290af21d4bd9a95))':
     dependencies:
       form-data: 4.0.0
       node-fetch: 2.7.0(encoding@0.1.13)
@@ -18679,7 +18684,7 @@ snapshots:
       zod: 3.25.67
     optionalDependencies:
       '@langchain/core': 0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67))
-      langchain: 0.3.29(f70fa75ddbb47652add7d0f11a5bc120)
+      langchain: 0.3.29(5b3e41c44329ac59e290af21d4bd9a95)
     transitivePeerDependencies:
       - encoding
 
@@ -18904,17 +18909,17 @@ snapshots:
     dependencies:
       '@swc/helpers': 0.5.17
 
-  '@intlify/core-base@11.1.2':
+  '@intlify/core-base@11.1.11':
     dependencies:
-      '@intlify/message-compiler': 11.1.2
-      '@intlify/shared': 11.1.2
+      '@intlify/message-compiler': 11.1.11
+      '@intlify/shared': 11.1.11
 
-  '@intlify/message-compiler@11.1.2':
+  '@intlify/message-compiler@11.1.11':
     dependencies:
-      '@intlify/shared': 11.1.2
+      '@intlify/shared': 11.1.11
       source-map-js: 1.2.1
 
-  '@intlify/shared@11.1.2': {}
+  '@intlify/shared@11.1.11': {}
 
   '@ioredis/as-callback@3.0.0': {}
 
@@ -19233,7 +19238,7 @@ snapshots:
       - aws-crt
       - encoding
 
-  '@langchain/community@0.3.47(61ef7247b42783317a27f57d3dd83a45)':
+  '@langchain/community@0.3.47(eb7a671573a5d628fc741b1ab4759996)':
     dependencies:
       '@browserbasehq/stagehand': 1.9.0(@playwright/test@1.53.0)(deepmerge@4.3.1)(dotenv@16.5.0)(encoding@0.1.13)(openai@5.8.1(ws@8.18.2)(zod@3.25.67))(zod@3.25.67)
       '@ibm-cloud/watsonx-ai': 1.1.2
@@ -19245,7 +19250,7 @@ snapshots:
       flat: 5.0.2
       ibm-cloud-sdk-core: 5.3.2
       js-yaml: 4.1.0
-      langchain: 0.3.29(f70fa75ddbb47652add7d0f11a5bc120)
+      langchain: 0.3.29(5b3e41c44329ac59e290af21d4bd9a95)
       langsmith: 0.3.45(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67))
       openai: 5.8.1(ws@8.18.2)(zod@3.25.67)
       uuid: 10.0.0
@@ -19259,7 +19264,7 @@ snapshots:
       '@aws-sdk/credential-provider-node': 3.808.0
       '@azure/storage-blob': 12.26.0
       '@browserbasehq/sdk': 2.6.0(encoding@0.1.13)
-      '@getzep/zep-cloud': 1.0.12(@langchain/core@0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67)))(encoding@0.1.13)(langchain@0.3.29(f70fa75ddbb47652add7d0f11a5bc120))
+      '@getzep/zep-cloud': 1.0.12(@langchain/core@0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67)))(encoding@0.1.13)(langchain@0.3.29(5b3e41c44329ac59e290af21d4bd9a95))
       '@getzep/zep-js': 0.9.0
       '@google-ai/generativelanguage': 2.6.0(encoding@0.1.13)
       '@google-cloud/storage': 7.12.1(encoding@0.1.13)
@@ -21293,7 +21298,7 @@ snapshots:
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       vue: 3.5.13(typescript@5.8.3)
-      vue-component-type-helpers: 3.0.3
+      vue-component-type-helpers: 3.0.5
 
   '@stylistic/eslint-plugin@5.0.0(eslint@9.29.0(jiti@1.21.7))':
     dependencies:
@@ -21774,7 +21779,7 @@ snapshots:
   '@types/node-fetch@2.6.12':
     dependencies:
       '@types/node': 20.19.1
-      form-data: 4.0.2
+      form-data: 4.0.4
 
   '@types/node@20.17.57':
     dependencies:
@@ -23000,7 +23005,7 @@ snapshots:
 
   axios-retry@4.5.0(axios@1.10.0):
     dependencies:
-      axios: 1.10.0
+      axios: 1.10.0(debug@4.4.1)
       is-retry-allowed: 2.2.0
 
   axios-retry@4.5.0(axios@1.8.3):
@@ -23010,7 +23015,7 @@ snapshots:
 
   axios@1.10.0:
     dependencies:
-      follow-redirects: 1.15.9(debug@4.4.0)
+      follow-redirects: 1.15.9(debug@4.3.6)
       form-data: 4.0.2
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -23042,7 +23047,7 @@ snapshots:
 
   axios@1.8.3:
     dependencies:
-      follow-redirects: 1.15.9(debug@4.4.0)
+      follow-redirects: 1.15.9(debug@4.3.6)
       form-data: 4.0.2
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -23740,7 +23745,7 @@ snapshots:
       '@aws-sdk/credential-providers': 3.808.0
       '@aws-sdk/protocol-http': 3.374.0
       '@aws-sdk/signature-v4': 3.374.0
-      form-data: 4.0.2
+      form-data: 4.0.4
       form-data-encoder: 4.0.2
       formdata-node: 6.0.3
       js-base64: 3.7.2(patch_hash=bb02fdf69495c7b0768791b60ab6e1a002053b8decd19a174f5755691e5c9500)
@@ -25041,7 +25046,7 @@ snapshots:
 
   eslint-import-resolver-node@0.3.9:
     dependencies:
-      debug: 3.2.7(supports-color@8.1.1)
+      debug: 3.2.7(supports-color@5.5.0)
       is-core-module: 2.16.1
       resolve: 1.22.10
     transitivePeerDependencies:
@@ -25065,7 +25070,7 @@ snapshots:
 
   eslint-module-utils@2.12.1(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@1.21.7))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@4.4.3)(eslint@9.29.0(jiti@1.21.7)):
     dependencies:
-      debug: 3.2.7(supports-color@8.1.1)
+      debug: 3.2.7(supports-color@5.5.0)
     optionalDependencies:
       '@typescript-eslint/parser': 8.35.0(eslint@9.29.0(jiti@1.21.7))(typescript@5.8.3)
       eslint: 9.29.0(jiti@1.21.7)
@@ -25104,7 +25109,7 @@ snapshots:
       array.prototype.findlastindex: 1.2.6
       array.prototype.flat: 1.3.3
       array.prototype.flatmap: 1.3.3
-      debug: 3.2.7(supports-color@8.1.1)
+      debug: 3.2.7(supports-color@5.5.0)
       doctrine: 2.1.0
       eslint: 9.29.0(jiti@1.21.7)
       eslint-import-resolver-node: 0.3.9
@@ -25722,6 +25727,14 @@ snapshots:
       es-set-tostringtag: 2.1.0
       mime-types: 2.1.35
 
+  form-data@4.0.4:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      es-set-tostringtag: 2.1.0
+      hasown: 2.0.2
+      mime-types: 2.1.35
+
   formdata-node@4.4.1:
     dependencies:
       node-domexception: 1.0.0
@@ -26060,7 +26073,7 @@ snapshots:
       array-parallel: 0.1.3
       array-series: 0.1.5
       cross-spawn: 7.0.6
-      debug: 3.2.7(supports-color@8.1.1)
+      debug: 3.2.7(supports-color@5.5.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -26402,7 +26415,7 @@ snapshots:
       '@types/debug': 4.1.12
       '@types/node': 20.19.1
       '@types/tough-cookie': 4.0.5
-      axios: 1.10.0
+      axios: 1.10.0(debug@4.4.1)
       camelcase: 6.3.0
       debug: 4.4.1(supports-color@8.1.1)
       dotenv: 16.5.0
@@ -27475,7 +27488,7 @@ snapshots:
       cssstyle: 3.0.0
       data-urls: 5.0.0
       decimal.js: 10.4.3
-      form-data: 4.0.2
+      form-data: 4.0.4
       html-encoding-sniffer: 4.0.0
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
@@ -27630,7 +27643,7 @@ snapshots:
 
   kuler@2.0.0: {}
 
-  langchain@0.3.29(f70fa75ddbb47652add7d0f11a5bc120):
+  langchain@0.3.29(5b3e41c44329ac59e290af21d4bd9a95):
     dependencies:
       '@langchain/core': 0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67))
       '@langchain/openai': 0.5.16(@langchain/core@0.3.61(@opentelemetry/api@1.9.0)(@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0))(openai@5.8.1(ws@8.18.2)(zod@3.25.67)))(ws@8.18.2)
@@ -29397,7 +29410,7 @@ snapshots:
 
   pdf-parse@1.1.1:
     dependencies:
-      debug: 3.2.7(supports-color@8.1.1)
+      debug: 3.2.7(supports-color@5.5.0)
       node-ensure: 0.0.0
     transitivePeerDependencies:
       - supports-color
@@ -30367,7 +30380,7 @@ snapshots:
 
   rhea@1.0.24:
     dependencies:
-      debug: 3.2.7(supports-color@8.1.1)
+      debug: 3.2.7(supports-color@5.5.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -32323,7 +32336,7 @@ snapshots:
 
   vue-component-type-helpers@2.2.10: {}
 
-  vue-component-type-helpers@3.0.3: {}
+  vue-component-type-helpers@3.0.5: {}
 
   vue-demi@0.14.10(vue@3.5.13(typescript@5.8.3)):
     dependencies:
@@ -32362,10 +32375,10 @@ snapshots:
     dependencies:
       github-buttons: 2.29.1
 
-  vue-i18n@11.1.2(vue@3.5.13(typescript@5.8.3)):
+  vue-i18n@11.1.11(vue@3.5.13(typescript@5.8.3)):
     dependencies:
-      '@intlify/core-base': 11.1.2
-      '@intlify/shared': 11.1.2
+      '@intlify/core-base': 11.1.11
+      '@intlify/shared': 11.1.11
       '@vue/devtools-api': 6.6.4
       vue: 3.5.13(typescript@5.8.3)
 
